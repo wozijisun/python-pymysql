@@ -29,11 +29,11 @@ yum -y install zlib-devel bzip2-devel openssl-devel ncurses-devel sqlite-devel r
 
 ------------------------------------
 增加了安装Flask的运行方式
-pip3 install MarkupSafe-1.1.1-cp37-cp37m-manylinux1_x86_64.whl
-pip3 install Jinja2-2.10.1-py2.py3-none-any.whl
-pip3 install Werkzeug-0.15.4-py2.py3-none-any.whl
-pip3 install Click-7.0-py2.py3-none-any.whl
-pip3 install itsdangerous-1.1.0-py2.py3-none-any.whl
+pip3 install MarkupSafe-1.1.1-cp37-cp37m-manylinux1_x86_64.whl && \
+pip3 install Jinja2-2.10.1-py2.py3-none-any.whl && \
+pip3 install Werkzeug-0.15.4-py2.py3-none-any.whl && \
+pip3 install Click-7.0-py2.py3-none-any.whl && \
+pip3 install itsdangerous-1.1.0-py2.py3-none-any.whl && \
 pip3 install Flask-1.1.1-py2.py3-none-any.whl
 安装调用flask的网关方式
 pip3 install uwsgi-2.0.18.tar.gz
